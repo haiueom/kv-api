@@ -29,7 +29,7 @@ async function getActiveExperiments(fingerprint, experiments) {
     const fingerprintHash = await hash('SHA-1', JSON.stringify(fingerprint));
     const MAX_UINT8 = 255;
     const activeExperiments = experiments.filter((exp, i) => fingerprintHash[i] <= exp.threshold * MAX_UINT8);
-    return activeExperiments.map((exp) => exp.name);
+    return activeExperiments.map(exp => exp.name);
 }
 
 // Hash a string using the Web Crypto API

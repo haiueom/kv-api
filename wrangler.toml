@@ -2,6 +2,7 @@ name = "api"
 main = "src/worker.js"
 compatibility_date = "2023-05-12"
 workers_dev = true
+type = "webpack"
 
 [[kv_namespaces]]
 binding = "API"

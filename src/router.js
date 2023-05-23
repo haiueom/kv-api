@@ -6,7 +6,7 @@ const router = Router();
 async function getKeys(env) {
     let arr = [];
     let data = await env.API.list();
-    data.keys.forEach((i) => {
+    data.keys.forEach(i => {
         arr.push(i.name);
     });
     return arr;
