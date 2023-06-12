@@ -11,7 +11,7 @@
         "prettier": "^2.8.8"
     },
     "dependencies": {
-        "itty-router": "^3.0.12",
+        "itty-router": "^4.0.9",
         "wrangler": "^3.0.0"
     }
 }
