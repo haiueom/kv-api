@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   itty-router:
-    specifier: ^4.0.9
-    version: 4.0.9
+    specifier: ^4.0.22
+    version: 4.0.22
   wrangler:
     specifier: ^3.3.0
     version: 3.3.0
@@ -577,8 +577,8 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: false
 
-  /itty-router@4.0.9:
-    resolution: {integrity: sha512-al8PIAJEWuWZcg4iwLcLiF7R9njsIQxrT27ik2Vfp1Mi5CBEVr1BDKbA1xpOyqkRbj9cCBQiTRpLIKnNO2YKlQ==}
+  /itty-router@4.0.22:
+    resolution: {integrity: sha512-FWK13vcITqld32NaOh+k2unRrR4qBZdzA9O1ctpqT1Q4lxKrHbtgaX1lLTv2VyXj3/8Waqk/NlDGNfxypJ8GKA==}
     dev: false
 
   /kleur@4.1.5:
