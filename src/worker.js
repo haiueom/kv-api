@@ -42,9 +42,6 @@ export default {
             }
         }
 
-        return new Response(
-            `Online`,
-            { headers: { 'Content-Type': 'text/html' } }
-        );
+        return new Response(`Online`, { headers: { 'Content-Type': 'text/html' } });
     },
 };
