@@ -1,9 +1,5 @@
 name = "api"
 main = "src/worker.js"
-compatibility_date = "2023-05-12"
+compatibility_date = "2023-09-18"
 workers_dev = true
 type = "webpack"
-
-[[kv_namespaces]]
-binding = "API"
-id = "bdaa6519d3e643d682574db0d67d51c7"
