@@ -10,7 +10,7 @@
         "prettier": "^3.0.3"
     },
     "dependencies": {
-        "itty-router": "^4.0.23",
+        "itty-router": "^4.2.2",
         "wrangler": "^3.21.0"
     }
 }
